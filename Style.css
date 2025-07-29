@@ -1,0 +1,472 @@
+
+#navbar{
+  height: 400px;
+  width: 100%;
+  background-color: #e6f4ea;
+  display: flex;
+  flex-direction: column;
+  
+}
+#logotext{
+  font-size: 30px;
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  
+  
+  
+}
+#logoa{
+display: block;
+margin: 0 auto;
+}
+
+
+
+#navtext{
+display: flex;
+flex-direction: row ;
+justify-content: space-evenly;
+margin-top : 120px;
+margin-right: 10px;
+}
+.navtextin{
+  color: black;
+  font-size: 23px;
+  text-decoration: none;
+  font-weight: boloder;
+  margin-left: 15px;
+}
+#navbar2{
+  height: 5700px;
+  width: 100%;
+  background-color: whitesmoke ;
+}
+#header{
+  color: black;
+  font-size: 45px;
+  font-weight: 500;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+#slidebar {height: 600px;
+  width: 960px;
+  
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  padding-top: 10px;
+  background-color: whitesmoke;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+  #sliderimg {height: 400px;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 860px; /* fits inside 960px with 50px buttons */
+  gap: 10px;
+  padding-top: 0px;
+}
+
+/* Each image takes full height with auto width */
+.slide-img {
+  height: 400px;
+  width: 1000px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+/* Arrow buttons */
+#left, #right {
+  font-size: 30px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 10px;
+  margin-bottom: 300px;
+  cursor: pointer;
+  margin-top: 280px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+#left:hover, #right:hover {
+  background-color: whitesmoke;
+}
+  #add{
+    color: black;
+  font-size: 45px;
+  font-weight: 500;
+  text-transform : uppercase ;
+  margin-left: 15px;
+  }
+  #indoor{
+  font-size: 40px;
+  font-weight: 550;
+  margin-left: 25px;
+}
+
+#indoortext{
+  font-size: 40px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+  #mobileindoor{
+  margin-left: 0px;
+  border-radius: 25px;
+  height: 400px;
+  width: 100%;
+  
+  }
+  #indoortext2{
+  font-size: 40px;
+  font-weight: normal;
+  margin-left: 15px;
+}
+  #airpurify{
+  font-size: 40px;
+  font-weight: 550;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+#Air-Purifyingimg{
+  margin-left: 20px;
+  width: 100%;
+  height:400px;
+}
+#Air-Purifyingtext{
+  font-size: 40px;
+  font-weight: normal;
+  margin-left: 15px;
+}
+#lowlight{
+  font-size: 40px;
+  font-weight: 550;
+  margin-left: 10px;
+}
+#lowlightimg{
+  margin-left: 20px;
+  width: 100%;
+  height:400px;
+}
+#lowlighttext{
+  font-size: 40px;
+  font-weight: normal;
+  margin-left: 15px;
+}
+#pots{
+  color: black;
+  font-size: 45px;
+  font-weight: 510;
+  margin-left: 15px;
+  padding-top: 30px;
+  text-transform:uppercase ;
+}
+#stylishpots{
+  font-size: 40px;
+  font-weight: 550;
+  margin-left: 10px;
+}
+#potsimg{
+  margin-left: 20px;
+  width: 100%;
+  height:400px;
+}
+#mainbox3{
+  height: 600px;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+#box1,#box3{
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  margin-left:250px;
+  margin-top: 50px;
+}
+#box2{
+  height: 500px;
+  width: 400px;
+  background-color: white;
+margin-top: 50px;
+  margin-right: 450px;
+  
+}
+
+#box1img,#box2img{
+margin-left: 40px;
+margin-top: 50px;
+  height:200px;
+  width:300px;
+  
+}
+#box1text,#box2text{
+  font-size: 30px;
+  font-weight: 500px;
+  margin-left: 40px;
+  margin-top: 40px;
+  
+}
+#mainbox4{
+  height: ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+   width:100%;
+}
+#box4{
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  margin-top: 50px;
+  margin-right: 450px;
+}
+#box3img,#box4img{
+  margin-left: 40px;
+margin-top: 50px;
+  height:200px;
+  width:300px;
+}
+#boxtext3,#boxtext4{
+  font-size: 30px;
+  font-weight: 500px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+  #footer{
+height: 700px;
+width:960px;
+background-color: #d7ccc8;
+}
+#main-footer {
+background-color: #d7ccc8; /* soft earth tone */
+color: black;
+text-align: center;
+padding: 20px 10px;
+font-family: 'Poppins', sans-serif;
+font-size: 10px;
+line-height: 1.6;
+}
+
+#aboutus{
+  text-align: center;
+
+}
+#follow{
+text-align: center;
+}
+#created{
+text-align: centre;
+color: black;
+font-size : 10px;
+}
+#anas{
+text-align: center;
+font-size : 10px;
+}
+  #instagramlogo{
+  height: 25px;
+  width: 25px;}
+  
+  
+  
+  @media only screen and (max-width:
+455px){
+  #navbar,{
+    height: 400px;
+    width: 100%;
+  }
+  #logotext{
+    font-size: 20px;
+  }
+  .navtextin{
+    font-size: 10px;
+  }
+  #header{ font-size: 15px;
+  }
+
+  #navbar2{
+    height: 3200px;
+    width: 100%;
+  }
+  #header{
+    font-size:18px;
+    
+    
+  }
+#slidebar {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+#sliderimg {
+  width: 300%; /* For 3 images side by side */
+  display: flex;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.slide-img {
+  width: 100vw; /* One full screen width per image */
+  height: 200px; /* You can adjust as needed */
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+#left,#right {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;}
+ 
+#add{
+  color: black;
+  font-size: 18px;
+  margin-left: 15px;
+}
+   #indoor,#lowlight,#pots,#stylishpots{
+  font-size: 20px;
+  font-weight: 550;
+  margin-left: 25px;
+}
+#indoortext,#lowlighttext,#Air-Purifyingtext{
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+ #mobileindoor,#lowlightimg,#potsimg{
+margin-left: 10px;
+  height: 280px;
+  width:355px;
+
+}
+  #indoortext2{
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 15px;
+  margin-top: 0px;
+}
+#airpurify{
+  margin-left: 10px;
+  font-size : 20px;
+  margin-top: 0px;
+}
+#Air-Purifyingimg{
+  margin-left: 10px;
+  height: 280px;
+  width:355px;
+}
+#pots{
+  font-size: 15px;
+  margin-left: 10px;
+  color: black;
+  
+}
+
+#mainbox3{
+  height: 300px;
+  width:100%;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#box1{
+  height: 250px;
+  width: 800px;
+  background-color: white;
+  margin-left:15px;
+  margin-top: 30px;
+  
+}
+#box2{
+  height: 250px;
+  width: 800px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right:5px;
+}
+
+#box1img,#box2img{
+  margin-left: 25px;
+  margin-top: 30px;
+height: 110px;
+width: 110px;
+}
+#box1text,#box2text{
+  font-size: 14px;
+  font-weight: 500px;
+  margin-left: 10px;
+  margin-top: 30px;
+  
+}
+#box3img,#box4img{
+  margin-left: 25px;
+  margin-top: 30px;
+height: 110px;
+width: 110px;
+}
+#mainbox4{
+  height: 300px;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#box3{
+  height: 250px;
+  width: 800px;
+  background-color: white;
+  margin-left:15px;
+  margin-top: 10px;
+}
+#box4{
+    height: 250px;
+  width: 800px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right:5px;
+}
+
+
+#boxtext3,#boxtext4{
+  font-size: 14px;
+  font-weight: 500px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+#instagramlogo{
+  height: 25px;
+  width: 25px;
+}
+#aboutus{
+
+  text-align: center;
+}
+
+}

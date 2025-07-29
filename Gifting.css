@@ -1,0 +1,245 @@
+#navbar{
+  height: 300px;
+  width: 100%;
+  background-color:  #e6f4ea;
+  display: flex;
+  flex-direction: column;
+  
+}
+#logotext{
+  font-size: 30px;
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+#navtext{
+display: flex;
+flex-direction: row ;
+justify-content: space-evenly;
+margin-top : 50px;
+margin-right: 10px;
+}  
+ .navtextin{
+  color: black;
+  font-size: 23px;
+  text-decoration: none;
+  font-weight: boloder;
+  margin-left: 15px;
+ }
+ #navbar2{
+   height: 8500px;
+   background-color: whitesmoke;
+   width:100%;
+ }
+#header{
+  font-size: 35px;
+  font-weight: 500;
+  color:black;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+
+#headerimg{
+  width: 100%;
+  height: 1000px;
+  margin-top: 15px;
+}
+
+#giftingplanttext,#nextpointtext,#nextpoint2text,#nextpoint3text,#nextpoint4text,#nextpoint5text,#nextpoint6text{
+  font-size: 40px;
+  font-weight: normal;
+  color:black;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+#nextpointimg,#nextpoint6img{
+  height: 400px;
+  width:100%
+}
+#giftingplants,#nextpoint,#nextpoint2,#nextpoint3,#nextpoint4,#nextpoint5,#nextpoint6,#allocasion,#typesofplant{
+  font-size: 35px;
+  font-weight: 510;
+  color: black;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+.allocasionul1{
+  font-size: 35px;
+  font-weight: 400;
+  color:black;
+  margin-top: 30px;
+margin-right: 20px;
+}
+#type1,#type2,#type3,#type4,#type5{
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+#type1img,#nextpoint5img,#type2img,#type3img,#type4img,#type5img{
+  height: 400px;
+  width:100%;
+  margin-top: 30px;
+}
+#type1text,#type2text,#type3text,#type4text,#type5text{
+  font-size: 40px;
+  font-weight: normal;
+  color:black;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+     #footer{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#d7ccc8 ;
+  }
+    #plantnestfooter{
+      font-size: 30px;
+      font-weight: normal;
+      text-align: center;
+    }
+    #allcontent{
+      font-size: 28px;
+      font-weight: normal;
+      margin-left: 20px;
+    }
+    #aboutus{
+  text-align: center;
+    }
+  
+  #follow{
+text-align: center;
+font-size: 25px;
+font-weight: boloder;
+  }
+  #instagramlogo{
+  height: 30px;
+  width: 30px;}
+  
+
+ @media only screen and (max-width: 455px){
+  
+   #navbar{
+    height: 300px;
+    width: 100%;
+  }
+  #logotext{
+    font-size: 15px;
+  }
+     #navbar2{
+   height: 5800px;
+   background-color: whitesmoke;
+   width:100%;
+ }
+#header{
+  font-size: 15px;
+  font-weight: 500;
+  color:black;
+  padding-top: 20px;
+  text-transform: uppercase;
+  padding-left:10px ;
+}
+#headerimg{
+  width: 100%;
+  height: 600px;
+  margin-top: 15px;
+}
+#giftingplants,#nextpoint,#nextpoint2,#nextpoint3,#nextpoint4,#nextpoint5,#nextpoint6,#allocasion,#typesofplant{
+  font-size: 15px;
+  font-weight: 510;
+  color:black;
+  padding-top: 20px;
+  text-transform: uppercase;
+  padding-left:10px ;
+}
+#giftingplanttext,#nextpointtext,#nextpoint2text,#nextpoint3text,#nextpoint4text,#nextpoint5text,#nextpoint6text{
+  font-size: 15px;
+  font-weight: normal;
+  color:black;
+  margin-top: 10px;
+margin-left: 8px;
+}
+#nextpointimg,#nextpoint6img{
+  height: 200px;
+  width:100%
+}
+.allocasionul1{
+  font-size: 18px;
+  font-weight: 400;
+  color:black;
+  margin-top: 15px;
+margin-right: 7px;
+  
+}
+#type1,#type2,#type3,#type4,#type5{
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-top: 20px;
+
+  
+}
+#type1img,#nextpoint5img,#type2img,#type3img,#type4img,#type5img{
+  height: 200px;
+  width:100%;
+  margin-top: 10px;
+}
+#type1text,#type2text,#type3text,#type4text,#type5text{
+  font-size: 15px;
+  font-weight: normal;
+  color:black;
+  margin-top: 10px;
+margin-left: 8px;
+}
+
+     #footer{
+    height: 240px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#d7ccc8 ;
+  }
+  #plantnestfooter{
+    font-size: 10px;
+   text-align: center;
+    
+  }
+ #allcontent{
+   font-size: 12px;
+   align-items: center;
+   margin-left: 10px;
+ }
+ #instagramlogo{
+  height: 20px;
+  width: 20px;
+ }
+  #aboutus{
+  text-align: center;
+}
+  #follow{
+text-align: center;
+font-size: 13px;
+font-weight: boloder;
+  }
+
+
+}
